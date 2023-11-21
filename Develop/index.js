@@ -19,8 +19,33 @@ const questions = [
     },
     {
         type: "input",
-        name: "installation instructions",
-        message: "Are there any installation instructions for this project?"
+        name: "installation",
+        message: "If applicable, what are the steps required to install your project?"
+    },
+    {
+        type: "input",
+        name: "usage",
+        message: "Instructions and examples for use?"
+    },
+    {
+        type: "input",
+        name: "contributions",
+        message: "How can others contribute to this project?"
+    },
+    {
+        type: "input",
+        name: "tests",
+        message: "Tests for your application?"
+    },
+    {
+        type: "input",
+        name: "gitUser",
+        message: "Github username:"
+    },
+    {
+        type: "input",
+        name: "email",
+        message: "E-mail:"
     },
     {
         type: "list",

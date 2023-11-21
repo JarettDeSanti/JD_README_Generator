@@ -51,7 +51,7 @@ ${answers.description}
 - [Installation](#installation)
 - [Usage](#usage)
 ${renderLicenseLink(answers.license)}
-- [Contributing](#contributing)
+- [Contributions](#contributions)
 - [Tests](#tests)
 - [Questions](#questions)
 ## Installation
@@ -59,14 +59,14 @@ ${answers.installation}
 ## Usage
 ${answers.usage}
 ${renderLicenseSection(answers.license)}
-## How to Contribute
+## Contributions
 ${answers.contributions}
 ## Tests
-${answers.test}
+${answers.tests}
 ## Questions
-What is your Github username?
+Github username:
 ${answers.gitUser}
-What is your Email?
+E-mail:
 ${answers.email}
  `;
 }
