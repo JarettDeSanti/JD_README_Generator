@@ -10,11 +10,15 @@ const questions = [
 
 ];
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    inquirer.prompt(questions).then(response => {
+        fs.writeFileSync("README_TEST.md", generateMarkdown({ ...response }))
+
+    }).catch((error) => { console.log(error, "Whoopsy Daisy, error!") })
+}
 
 // Function call to initialize app
 init();
